@@ -6,7 +6,7 @@ class _InstantPromptBox:
         self._zoltraak = Zoltraak()
 
     @property
-    def zoltraak(self):
+    def zoltraak(self)->Zoltraak:
         return self._zoltraak
 
 
