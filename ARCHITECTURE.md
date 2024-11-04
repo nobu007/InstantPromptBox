@@ -1,6 +1,6 @@
-# InstantPromptBox プロジェクトの全体像
+# InstantPromptBox project
 
-## 処理の流れ
+## flow
 
 ```mermaid
 flowchart TD
@@ -8,7 +8,7 @@ flowchart TD
     B --> C[InstantPromptBox.callで利用する]
 ```
 
-## ディレクトリ構成
+## directory structure
 
 ```
 InstantPromptBox
@@ -32,12 +32,12 @@ InstantPromptBox
 └── pyproject.toml
 ```
 
-### 利用例
+### sample
 
 ```python
 fix_code_prompt = InstantPromptBox.zoltraak.zoltraak_prompt_fix_code(code=code, error_message=error_message)
 ```
 
-## その他
+## other
 
 ユーティリティクラスは@staticmethod で実装する。
