@@ -24,7 +24,7 @@ version = "0.0.0"
 "Source Code" = "https://github.com/nobu007/InstantPromptBox"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10,<3.14"
 
 [tool.poetry.group.test]
 optional = true
